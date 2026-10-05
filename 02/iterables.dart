@@ -6,6 +6,10 @@ void main() {
   //map and where return Iterable,so we need to convert to list
   var sum = nums.fold(0, (a, b) => a + b);
 
+  final numbers = [1, 2];
+  numbers.add(3);
+  print(numbers);
+
   print(doubled);
   print(sum);
   print(evens);
